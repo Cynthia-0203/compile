@@ -1,0 +1,11 @@
+S,T,F,S'
+true,false,(,),^,V,-
+S'->S
+S->SVT
+S->T
+T->T^F
+T->F
+F->-F
+F->true
+F->false
+F->(S)
